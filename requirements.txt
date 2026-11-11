@@ -1,0 +1,8 @@
+# 核心护栏（src/detect.py · src/pii.py · src/normalize.py · src/guardrail.py）
+# 仅依赖 Python 3.9+ 标准库：re / unicodedata / hmac / hashlib / secrets /
+# threading / base64 / binascii / codecs / urllib.parse / logging / json
+# —— 无第三方运行时依赖，可内网离线部署。
+#
+# 以下仅为可选的框架适配，核心功能不需要：
+# fastapi>=0.110        # 使用 fastapi_middleware() 时
+# litellm>=1.40         # 使用 litellm_pre_call() 时
